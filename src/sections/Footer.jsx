@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/priyanshupb01008/" target="_blank" rel="noopener noreferrer">
             <img src="/assets/linkedin.png" alt="linkedin" className="w-8 h-8" />
           </a>
         </div>
