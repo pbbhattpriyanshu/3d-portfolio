@@ -252,3 +252,27 @@ export const workExperiences = [
     animation: 'salute',
   },
 ];
+
+export const socialImgs = [
+  {
+    name: "Github",
+    imgPath: "/assets/github.svg",
+    url: "https://github.com/pbbhattpriyanshu",
+  },
+  {
+    name: "X",
+    imgPath: "/assets/x.png",
+    url: "https://x.com/Priyanshu12bha",
+  },
+  {
+    name: "LinkedIn",
+    imgPath: "/assets/linkedin.png",
+    url: "https://www.linkedin.com/in/priyanshupb01008/",
+  },
+  {
+    name: "Instagram",
+    imgPath: "/assets/insta.png",
+    url: "https://www.instagram.com/piu_shbhatt/",
+  },
+];
+
