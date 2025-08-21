@@ -7,9 +7,10 @@ const Button = ({ name, isBeam = false, containerClass }) => {
           <span className="btn-ping_dot"></span>
         </span>
       )}
-      {name}
+      <a href="#contact">{name}</a>
     </button>
   );
 };
+
 
 export default Button;
