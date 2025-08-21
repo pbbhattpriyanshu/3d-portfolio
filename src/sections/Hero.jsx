@@ -26,29 +26,20 @@ const Hero = () => {
         <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
       </div>
 
-      <div className="w-full h-full absolute inset-0">
-        <Canvas className="w-full h-full">
-          <Suspense fallback={<CanvasLoader />}>
-            {/* To hide controller */}
-            <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-
-            <HeroCamera isMobile={isMobile}>
-              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
-            </HeroCamera>
-
-
-            <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
-          </Suspense>
-        </Canvas>
-      </div>
-
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit">
           <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
         </a>
       </div>
+
+      <video
+        src="/assets/screen.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="mt-5 w-full h-96 rounded-xl shadow-lg"
+      />
     </section>
   );
 };
