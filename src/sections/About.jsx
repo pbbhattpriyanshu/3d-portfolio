@@ -85,11 +85,10 @@ const About = () => {
             />
 
             <div className="space-y">
-              <p className="grid-subtext text-center">Check My Resume</p>
               <button
                 onClick={openResume}
                 className="mt-10 w-full px-24 py-3 bg-yellow-500 text-black font-semibold rounded-lg">
-                Resume
+                Check my Resume
               </button>
             </div>
           </div>
