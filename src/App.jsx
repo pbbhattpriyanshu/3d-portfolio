@@ -5,7 +5,6 @@ import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
-import FeatureCards from './sections/FeatureCards.jsx';
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <FeatureCards />
       <Projects />
       <WorkExperience />
       <Contact />
