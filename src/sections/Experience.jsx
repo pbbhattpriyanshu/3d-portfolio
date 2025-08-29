@@ -15,7 +15,7 @@ const WorkExperience = () => {
         <p className="head-text">My Learning Experience</p>
 
         <div className="work-container">
-          <div className="work-canvas">
+          {/* <div className="work-canvas">
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -26,7 +26,7 @@ const WorkExperience = () => {
                 <Developer position-y={-3} scale={3} animationName={animationName} />
               </Suspense>
             </Canvas>
-          </div>
+          </div> */}
 
           <div className="work-content">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
