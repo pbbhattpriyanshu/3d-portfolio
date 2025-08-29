@@ -1,18 +1,12 @@
-import { useState } from 'react';
 import Globe from 'react-globe.gl';
 
 import Button from '../components/Button.jsx';
 
 const About = () => {
-  const [hasCopied, setHasCopied] = useState(false);
+  const resumePath = 'Files/Priyanshu-Bhatt.pdf'; // put resume.pdf inside /public
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
-    setHasCopied(true);
-
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
+  const openResume = () => {
+    window.open(resumePath, '_blank');
   };
 
   return (
@@ -77,7 +71,6 @@ const About = () => {
               <p className="grid-subtext">
                 I love solving problems and building things through code. Programming isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
-                
               </p>
             </div>
           </div>
@@ -88,15 +81,16 @@ const About = () => {
             <img
               src="assets/grid4.png"
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
+              className="w-full md:h-[126px] sm:h-[206px] h-fit object-cover sm:object-top"
             />
 
-            <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
-              <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-lg md:text-xl font-medium text-gray_gradient text-white">bhattpriyanshupcm007@gmail.com</p>
-              </div>
+            <div className="space-y">
+              <p className="grid-subtext text-center">Check My Resume</p>
+              <button
+                onClick={openResume}
+                className="mt-10 w-full px-24 py-3 bg-yellow-500 text-black font-semibold rounded-lg">
+                Resume
+              </button>
             </div>
           </div>
         </div>
