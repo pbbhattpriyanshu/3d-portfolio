@@ -73,7 +73,7 @@ const Contact = () => {
 
         <div className="contact-container p-9">
           <h3 className="head-text">Let&#39;s talk</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <p className="text-sm text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
