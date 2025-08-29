@@ -81,14 +81,14 @@ const About = () => {
             <img
               src="assets/grid4.png"
               alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[206px] h-fit object-cover sm:object-top"
+              className="w-full md:h-[126px] sm:h-[206px]  object-cover sm:object-top"
             />
 
             <div className="space-y">
               <button
                 onClick={openResume}
-                className="mt-10 w-full px-24 py-3 bg-yellow-500 text-black font-semibold rounded-lg">
-                Check my Resume
+                className="mt-3 w-full px-24 py-3 bg-yellow-500 text-black font-semibold rounded-lg">
+                Resume
               </button>
             </div>
           </div>
